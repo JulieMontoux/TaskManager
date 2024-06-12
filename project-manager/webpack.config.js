@@ -10,7 +10,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: '/',
+        publicPath: '/TaskManager/', // Assurez-vous que le publicPath est configuré correctement
     },
     mode: isDevelopment ? 'development' : 'production',
     devServer: {
