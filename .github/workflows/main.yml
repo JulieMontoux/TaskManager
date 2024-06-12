@@ -20,11 +20,11 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: ./  # Assurez-vous que ce chemin est correct
+      working-directory: ./project-manager
 
     - name: Build project
       run: npm run build
-      working-directory: ./  # Assurez-vous que ce chemin est correct
+      working-directory: ./project-manager
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
